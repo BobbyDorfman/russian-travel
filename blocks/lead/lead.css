@@ -1,0 +1,10 @@
+.lead {
+    width: calc(100% - 296px);
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
