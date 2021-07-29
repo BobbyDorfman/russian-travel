@@ -1,0 +1,11 @@
+.place {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 984px;
+    margin: 0 0 80px;
+}
+
+.place:last-child {
+    margin: 0;
+}

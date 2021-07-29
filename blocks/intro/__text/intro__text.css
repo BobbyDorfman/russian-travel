@@ -1,0 +1,9 @@
+.intro__text {
+    font-weight: 400;
+    display: flex;
+    max-width: 690px;
+    font-size: 16px;
+    line-height: 26.8px;
+    color: #FFF;
+    margin: 0;
+}
