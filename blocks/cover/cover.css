@@ -1,0 +1,9 @@
+.cover {
+    position: relative;
+    background: url(../../sprint-3-images/cover-trains.jpg);
+    background-position: top center;
+    background-size: cover;
+    max-width: 1184px;
+    min-height: 740px;
+    margin: 0 auto 92px;
+}
