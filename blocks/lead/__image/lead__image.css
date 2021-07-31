@@ -13,7 +13,7 @@
     }
 }
 
-@media screen and (min-width: 1025x) {
+@media screen and (min-width: 1025px) {
     .lead__image {
         transition: all 1s ease;
     }
@@ -27,7 +27,7 @@
     }
 }
 
-@media screen and (min-width: 321x) {
+@media screen and (min-width: 321px) {
     .lead__image {
         transition: all 1s ease;
     }
