@@ -10,3 +10,17 @@
     color: #FFF;
     margin: 0;
 }
+
+@media screen and (max-width: 769px) {
+    .lead__caption {
+        width: calc(100% - 24px * 2);
+        margin: 0 auto;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .lead__caption {
+        transition: all 1s ease;
+    }
+}

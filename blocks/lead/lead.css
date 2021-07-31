@@ -13,10 +13,23 @@
         max-width: calc(100% - 48px * 2);
         transition: all 1s ease;
     }
-} 
+}
 
 @media screen and (min-width: 1025px) {
     .lead {
         transition: all 1s ease;
     }
-} 
+}
+
+@media screen and (max-width: 769px) {
+    .lead {
+        max-width: 100%;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .lead {
+        transition: all 1s ease;
+    }
+}

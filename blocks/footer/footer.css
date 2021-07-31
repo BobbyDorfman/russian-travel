@@ -7,3 +7,16 @@
     margin: 0 auto;
     padding-bottom: 24px;
 }
+
+@media screen and (max-width: 769px) {
+    .footer {
+        max-width: calc(100% - 24px * 2);
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .footer {
+        transition: all 1s ease;
+    }
+}

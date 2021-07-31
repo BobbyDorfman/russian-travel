@@ -1,9 +1,22 @@
 .place__url-heading {
     font-weight: 400;
     font-size: 12px;
-    line-height: 12px;
+    line-height: 20.4px;
     letter-spacing: 2px;
     color: #aaa;
     margin: 0 0 12px;
     padding: 0;
+}
+
+@media screen and (max-width: 769px) {
+    .place__url-heading {
+        line-height: 12px;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .place__url-heading {
+        transition: all 1s ease;
+    }
 }

@@ -10,12 +10,26 @@
 @media screen and (max-width: 1025px) {
     .place__title {
         max-width: 440px;
-        margin: 0;
         transition: all 1s ease;
     }
 }
 
 @media screen and (min-width: 1025px) {
+    .place__title {
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+        max-width: 340px;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 769px) {
     .place__title {
         transition: all 1s ease;
     }

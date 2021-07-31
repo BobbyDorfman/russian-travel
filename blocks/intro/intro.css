@@ -8,10 +8,23 @@
         max-width: calc(100% - 48px * 2);
         transition: all 1s ease;
     }
-} 
+}
 
 @media screen and (min-width: 1025px) {
     .intro {
         transition: all 1s ease;
     }
-} 
+}
+
+@media screen and (max-width: 769px) {
+    .intro {
+        max-width: calc(100% - 24px * 2);
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .intro {
+        transition: all 1s ease;
+    }
+}

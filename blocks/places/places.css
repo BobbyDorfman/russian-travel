@@ -13,10 +13,23 @@
         max-width: calc(100% - 48px * 2);
         transition: all 1s ease;
     }
-} 
+}
 
 @media screen and (min-width: 1025px) {
     .places {
         transition: all 1s ease;
     }
-} 
+}
+
+@media screen and (max-width: 769px) {
+    .places {
+        max-width: calc(100% - 24px * 2);
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .places {
+        transition: all 1s ease;
+    }
+}

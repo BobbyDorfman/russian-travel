@@ -26,3 +26,16 @@
         transition: all 1s ease;
     }
 }
+
+@media screen and (max-width: 769px) {
+    .place {
+        gap: 48px 28px;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .place {
+        transition: all 1s ease;
+    }
+}
