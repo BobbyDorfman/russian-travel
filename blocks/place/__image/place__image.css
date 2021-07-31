@@ -1,5 +1,19 @@
 .place__image {
-    width: 460px;
+    max-width: 460px;
     object-fit: cover;
-    margin: 0 40px 0 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1025px) {
+    .place__image {
+        max-width: 440px;
+        margin: 0;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .place__image {
+        transition: all 1s ease;
+    }
 }

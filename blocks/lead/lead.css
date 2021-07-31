@@ -1,5 +1,5 @@
 .lead {
-    width: calc(100% - 296px);
+    max-width: calc(100% - 148px * 2);
     font-weight: normal;
     font-style: normal;
     display: flex;
@@ -7,3 +7,16 @@
     align-items: center;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1025px) {
+    .lead {
+        max-width: calc(100% - 48px * 2);
+        transition: all 1s ease;
+    }
+} 
+
+@media screen and (min-width: 1025px) {
+    .lead {
+        transition: all 1s ease;
+    }
+} 

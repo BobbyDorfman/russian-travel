@@ -1,11 +1,28 @@
 .place {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 48px 40px;
+    /*display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 984px;
+    max-width: calc(100% - 148px * 2);*/
     margin: 0 0 80px;
 }
 
 .place:last-child {
     margin: 0;
+}
+
+@media screen and (max-width: 1025px) {
+    .place {
+        gap: 48px 32px;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .place {
+        transition: all 1s ease;
+    }
 }

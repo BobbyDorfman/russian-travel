@@ -1,7 +1,17 @@
 .intro {
-    width: calc(100% - 296px);
-    font-family: 'Inter', 'Arial', sans-serif;
-    font-weight: normal;
-    font-style: normal;
+    max-width: calc(100% - 148px * 2);
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1025px) {
+    .intro {
+        max-width: calc(100% - 48px * 2);
+        transition: all 1s ease;
+    }
+} 
+
+@media screen and (min-width: 1025px) {
+    .intro {
+        transition: all 1s ease;
+    }
+} 

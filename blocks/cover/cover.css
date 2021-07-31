@@ -3,7 +3,21 @@
     background: url(../../sprint-3-images/cover-trains.jpg);
     background-position: top center;
     background-size: cover;
-    max-width: 1184px;
+    max-width: calc(100% - 48px * 2);
     min-height: 740px;
     margin: 0 auto 92px;
+}
+
+@media screen and (max-width: 1025px) {
+    .cover {
+        max-width: 100%;
+        min-height: 640px;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .cover {
+        transition: all 1s ease;
+    }
 }
