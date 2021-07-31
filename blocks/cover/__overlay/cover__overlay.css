@@ -65,6 +65,24 @@
     }
 }
 
+@media screen and (max-width: 731px) {
+    .cover__overlay {
+        height: 100%;
+        transition: all 1s ease;
+    }
+
+    .cover__overlay::before {
+        width: 100%;
+        min-height: 200px;
+    }
+}
+
+@media screen and (min-width: 731px) {
+    .cover__overlay {
+        transition: all 1s ease;
+    }
+}
+
 @media screen and (max-width: 321px) {
     .cover__overlay {
         min-height: 200px;

@@ -34,6 +34,20 @@
     }
 }
 
+@media screen and (max-width: 731px) {
+    .places {
+        min-width: 100%;
+        margin: 64px auto 66px;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 731px) {
+    .places {
+        transition: all 1s ease;
+    }
+}
+
 @media screen and (max-width: 321px) {
     .places {
         min-width: 100%;

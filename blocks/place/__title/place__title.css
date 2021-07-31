@@ -35,6 +35,22 @@
     }
 }
 
+@media screen and (max-width: 731px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        width: calc(100% - 16px * 2);
+        margin: 0 0 0 16px;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 731px) {
+    .place__title {
+        transition: all 1s ease;
+    }
+}
+
 @media screen and (max-width: 321px) {
     .place__title {
         font-size: 32px;

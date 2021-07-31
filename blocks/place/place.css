@@ -40,6 +40,23 @@
     }
 }
 
+@media screen and (max-width: 731px) {
+    .place {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 32px;
+        margin: 0 0 50px;
+        width: 100%;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 731px) {
+    .place {
+        transition: all 1s ease;
+    }
+}
+
 @media screen and (max-width: 321px) {
     .place {
         grid-template-columns: auto;
