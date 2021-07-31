@@ -19,3 +19,16 @@
         transition: all 1s ease;
     }
 }
+
+@media screen and (max-width: 321px) {
+    .header {
+        max-width: calc(100% - 16px * 2);
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 321px) {
+    .header {
+        transition: all 1s ease;
+    }
+}

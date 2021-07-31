@@ -6,3 +6,17 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 321px) {
+    .place__website {
+        width: calc(100% - 16px * 2);
+        margin: auto;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 321px) {
+    .place__website {
+        transition: all 1s ease;
+    }
+}

@@ -9,3 +9,19 @@
     margin: 0 0 32px 0;
     text-align: center;
 }
+
+@media screen and (max-width: 321px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        max-width: 288px;
+        margin: 0 0 16px 0;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 321px) {
+    .cover__title {
+        transition: all 1s ease;
+    }
+}

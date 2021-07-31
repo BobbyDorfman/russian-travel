@@ -34,3 +34,18 @@
         transition: all 1s ease;
     }
 }
+
+@media screen and (max-width: 321px) {
+    .cover {
+        max-width: 100%;
+        min-height: 200px;
+        margin: 0 auto 64px;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 321px) {
+    .cover {
+        transition: all 1s ease;
+    }
+}

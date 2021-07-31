@@ -9,3 +9,18 @@
     color: #FFF;
     margin: 0;
 }
+
+@media screen and (max-width: 321px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 288px;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 321px) {
+    .cover__subtitle {
+        transition: all 1s ease;
+    }
+}

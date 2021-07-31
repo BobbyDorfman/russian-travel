@@ -30,27 +30,55 @@
 }
 
 @media screen and (max-width: 1025px) {
-    .cover {
+    .cover__overlay {
         min-height: 640px;
         transition: all 1s ease;
+    }
+
+    .cover__overlay::before {
+        width: 100%;
+        height: 640px;
     }
 }
 
 @media screen and (min-width: 1025px) {
-    .cover {
+    .cover__overlay {
         transition: all 1s ease;
     }
 }
 
 @media screen and (max-width: 769px) {
-    .cover {
+    .cover__overlay {
         min-height: 480px;
         transition: all 1s ease;
+    }
+
+    .cover__overlay::before {
+        width: 100%;
+        height: 480px;
     }
 }
 
 @media screen and (min-width: 769px) {
-    .cover {
+    .cover__overlay {
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .cover__overlay {
+        min-height: 200px;
+        transition: all 1s ease;
+    }
+
+    .cover__overlay::before {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 321px) {
+    .cover__overlay {
         transition: all 1s ease;
     }
 }

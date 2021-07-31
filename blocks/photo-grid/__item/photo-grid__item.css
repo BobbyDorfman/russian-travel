@@ -4,15 +4,3 @@
     height: 100%;
     object-fit: cover;
 }
-
-@media screen and (max-width: 1025px) {
-    .photo-grid {
-        transition: all 1s ease;
-    }
-} 
-
-@media screen and (min-width: 1025px) {
-    .photo-grid {
-        transition: all 1s ease;
-    }
-} 

@@ -1,0 +1,35 @@
+@media screen and (max-width: 731px) {
+    .footer_style_list {
+        margin: 0 0 25px 0;
+        transition: all 1s ease;
+    }
+
+    .footer_style_list:last-of-type {
+        margin: 0;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 731px) {
+    .footer_style_list {
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .footer_style_list {
+        margin: 0 0 32px 0;
+        transition: all 1s ease;
+    }
+
+    .footer_style_list:last-of-type {
+        margin: 0;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 321px) {
+    .footer_style_list {
+        transition: all 1s ease;
+    }
+}

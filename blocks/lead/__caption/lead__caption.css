@@ -24,3 +24,17 @@
         transition: all 1s ease;
     }
 }
+
+@media screen and (max-width: 321px) {
+    .lead__caption {
+        width: calc(100% - 16px * 2);
+        margin: 0 auto;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 321px) {
+    .lead__caption {
+        transition: all 1s ease;
+    }
+}

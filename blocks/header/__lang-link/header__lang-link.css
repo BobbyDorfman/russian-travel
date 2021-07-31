@@ -14,3 +14,18 @@
 .header__lang-link:hover {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 321px) {
+    .header__lang-link {
+        max-width: 22px;
+        line-height: 20px;
+        font-size: 18px;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 321px) {
+    .header__lang-link {
+        transition: all 1s ease;
+    }
+}

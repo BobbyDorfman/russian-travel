@@ -8,3 +8,20 @@
     list-style: none;
     text-rendering: optimizeLegibility; 
 }
+
+@media screen and (max-width: 321px) {
+    .header__lang-links {
+        margin: 14px 0 8px 0;
+        grid-template-columns: repeat(2, 20px);
+        grid-template-rows: 22px;
+        align-items: end;
+        padding: 0;
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 321px) {
+    .header__lang-links {
+        transition: all 1s ease;
+    }
+}

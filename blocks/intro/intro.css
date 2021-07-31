@@ -28,3 +28,16 @@
         transition: all 1s ease;
     }
 }
+
+@media screen and (max-width: 321px) {
+    .intro {
+        max-width: calc(100% - 16px * 2);
+        transition: all 1s ease;
+    }
+}
+
+@media screen and (min-width: 321px) {
+    .intro {
+        transition: all 1s ease;
+    }
+}
