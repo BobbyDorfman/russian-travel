@@ -37,7 +37,7 @@
 @import url(./blocks/cover/__subtitle/cover__subtitle.css);
 @import url(./blocks/cover/__overlay/cover__overlay.css);
 @import url(./blocks/footer/footer.css);
-@import url(./blocks/footer/_style_list/footer_style_list.css);
+@import url(./blocks/footer/__link/_style_list/footer__link_style_list.css);
 @import url(./blocks/footer/__links/footer__links.css);
 @import url(./blocks/footer/__link/footer__link.css);
 @import url(./blocks/footer/__copyright/footer__copyright.css);
