@@ -3,7 +3,7 @@
 @import url(./blocks/page/page.css);
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__logo/header__logo.css);
-@import url(./blocks/header/_style_list/header_style_list.css);
+@import url(./blocks/header/__style/header__style.css);
 @import url(./blocks/header/__lang-links/header__lang-links.css);
 @import url(./blocks/header/__lang-link/header__lang-link.css);
 @import url(./blocks/active-link/active-link.css);
@@ -37,7 +37,7 @@
 @import url(./blocks/cover/__subtitle/cover__subtitle.css);
 @import url(./blocks/cover/__overlay/cover__overlay.css);
 @import url(./blocks/footer/footer.css);
-@import url(./blocks/footer/__link/_style_list/footer__link_style_list.css);
+@import url(./blocks/footer/__style/footer__style.css);
 @import url(./blocks/footer/__links/footer__links.css);
 @import url(./blocks/footer/__link/footer__link.css);
 @import url(./blocks/footer/__copyright/footer__copyright.css);

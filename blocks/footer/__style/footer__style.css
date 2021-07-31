@@ -1,35 +1,35 @@
 @media screen and (max-width: 731px) {
-    .footer__link_style_list {
+    .footer__style {
         margin: 0 0 25px 0;
         transition: all 1s ease;
     }
 
-    .footer__link_style_list:last-of-type {
+    .footer__style:last-of-type {
         margin: 0;
         transition: all 1s ease;
     }
 }
 
 @media screen and (min-width: 731px) {
-    .footer__link_style_list {
+    .footer__style {
         transition: all 1s ease;
     }
 }
 
 @media screen and (max-width: 321px) {
-    .footer__link_style_list {
+    .footer__style {
         margin: 0 0 32px 0;
         transition: all 1s ease;
     }
 
-    .footer__link_style_list:last-of-type {
+    .footer__style:last-of-type {
         margin: 0;
         transition: all 1s ease;
     }
 }
 
 @media screen and (min-width: 321px) {
-    .footer__link_style_list {
+    .footer__style {
         transition: all 1s ease;
     }
 }
