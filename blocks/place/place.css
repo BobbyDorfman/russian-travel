@@ -21,21 +21,9 @@
     }
 }
 
-@media screen and (min-width: 1025px) {
-    .place {
-        transition: all 1s ease;
-    }
-}
-
 @media screen and (max-width: 769px) {
     .place {
         gap: 48px 28px;
-        transition: all 1s ease;
-    }
-}
-
-@media screen and (min-width: 769px) {
-    .place {
         transition: all 1s ease;
     }
 }
@@ -51,12 +39,6 @@
     }
 }
 
-@media screen and (min-width: 731px) {
-    .place {
-        transition: all 1s ease;
-    }
-}
-
 @media screen and (max-width: 321px) {
     .place {
         grid-template-columns: auto;
@@ -64,12 +46,6 @@
         gap: 32px;
         margin: 0 0 50px;
         width: 100%;
-        transition: all 1s ease;
-    }
-}
-
-@media screen and (min-width: 321px) {
-    .place {
         transition: all 1s ease;
     }
 }

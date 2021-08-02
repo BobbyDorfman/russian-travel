@@ -1,34 +1,26 @@
 .lead__image {
     width: 100%;
-    /* width: 100%; */
-    /* padding-bottom: 100%; */
     margin: 64px 0 8px;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (min-width: 1280px) {
     .lead__image {
-
+        max-width: 984px;
         margin: 56px auto 8px;
         transition: all 1s ease;
     }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (max-width: 1025px) {
     .lead__image {
+        margin: 56px auto 8px;
         transition: all 1s ease;
     }
 }
 
 @media screen and (max-width: 321px) {
     .lead__image {
-
         margin: 40px auto 8px;
-        transition: all 1s ease;
-    }
-}
-
-@media screen and (min-width: 321px) {
-    .lead__image {
         transition: all 1s ease;
     }
 }

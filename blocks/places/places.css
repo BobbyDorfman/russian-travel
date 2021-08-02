@@ -8,6 +8,13 @@
     margin: 92px auto 92px;
 }
 
+@media screen and (min-width: 1025px) {
+    .places {
+        max-width: 984px;
+        transition: all 1s ease;
+    }
+}
+
 @media screen and (max-width: 1025px) {
     .places {
         max-width: calc(100% - 48px * 2);
@@ -15,21 +22,9 @@
     }
 }
 
-@media screen and (min-width: 1025px) {
-    .places {
-        transition: all 1s ease;
-    }
-}
-
 @media screen and (max-width: 769px) {
     .places {
         max-width: calc(100% - 24px * 2);
-        transition: all 1s ease;
-    }
-}
-
-@media screen and (min-width: 769px) {
-    .places {
         transition: all 1s ease;
     }
 }
@@ -42,22 +37,10 @@
     }
 }
 
-@media screen and (min-width: 731px) {
-    .places {
-        transition: all 1s ease;
-    }
-}
-
 @media screen and (max-width: 321px) {
     .places {
         min-width: 100%;
         margin: 64px auto 66px;
-        transition: all 1s ease;
-    }
-}
-
-@media screen and (min-width: 321px) {
-    .places {
         transition: all 1s ease;
     }
 }

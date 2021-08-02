@@ -16,22 +16,10 @@
     }
 }
 
-@media screen and (min-width: 731px) {
-    .footer__copyright {
-        transition: all 1s ease;
-    }
-}
-
 @media screen and (max-width: 321px) {
     .footer__copyright {
         margin: 48px 0 0;
         line-height: 14px;
-        transition: all 1s ease;
-    }
-}
-
-@media screen and (min-width: 321px) {
-    .footer__copyright {
         transition: all 1s ease;
     }
 }

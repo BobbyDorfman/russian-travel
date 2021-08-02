@@ -15,21 +15,9 @@
     }
 }
 
-@media screen and (min-width: 769px) {
-    .footer {
-        transition: all 1s ease;
-    }
-}
-
 @media screen and (max-width: 731px) {
     .footer {
         flex-direction: column;
-        transition: all 1s ease;
-    }
-}
-
-@media screen and (min-width: 731px) {
-    .footer {
         transition: all 1s ease;
     }
 }
@@ -38,12 +26,6 @@
     .footer {
         max-width: calc(100% - 16px * 2);
         flex-direction: column;
-        transition: all 1s ease;
-    }
-}
-
-@media screen and (min-width: 321px) {
-    .footer {
         transition: all 1s ease;
     }
 }

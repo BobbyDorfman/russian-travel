@@ -9,9 +9,3 @@
         transition: all 1s ease;
     }
 }
-
-@media screen and (min-width: 321px) {
-    .header__logo {
-        transition: all 1s ease;
-    }
-}

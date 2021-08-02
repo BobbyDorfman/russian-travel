@@ -8,6 +8,13 @@
     margin: 0 auto;
 }
 
+@media screen and (min-width: 1025px) {
+    .lead {
+        max-width: 984px;
+        transition: all 1s ease;
+    }
+}
+
 @media screen and (max-width: 1025px) {
     .lead {
         max-width: calc(100% - 48px * 2);
@@ -15,21 +22,9 @@
     }
 }
 
-@media screen and (min-width: 1025px) {
-    .lead {
-        transition: all 1s ease;
-    }
-}
-
 @media screen and (max-width: 769px) {
     .lead {
         max-width: 100%;
-        transition: all 1s ease;
-    }
-}
-
-@media screen and (min-width: 769px) {
-    .lead {
         transition: all 1s ease;
     }
 }

@@ -14,9 +14,3 @@
         transition: all 1s ease;
     }
 }
-
-@media screen and (min-width: 769px) {
-    .place__url-heading {
-        transition: all 1s ease;
-    }
-}

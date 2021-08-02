@@ -13,22 +13,10 @@
     }
 }
 
-@media screen and (min-width: 731px) {
-    .place__paragraphs {
-        transition: all 1s ease;
-    }
-}
-
 @media screen and (max-width: 321px) {
     .place__paragraphs {
         width: calc(100% - 16px * 2);
         margin: auto;
-        transition: all 1s ease;
-    }
-}
-
-@media screen and (min-width: 321px) {
-    .place__paragraphs {
         transition: all 1s ease;
     }
 }

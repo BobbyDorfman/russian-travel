@@ -4,3 +4,10 @@
     margin: 33px 0 92px;
     padding: 0;
 }
+
+@media screen and (max-width: 321px) {
+    .intro__list {
+        margin: 34px 0 64px;
+        transition: all 1s ease;
+    }
+}

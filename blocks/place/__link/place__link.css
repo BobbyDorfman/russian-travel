@@ -12,16 +12,3 @@
 .place__link:hover {
     opacity: 0.8;
 }
-
-/*@media screen and (max-width: 769px) {
-    .place__link {
-        max-width: 340px;
-        transition: all 1s ease;
-    }
-}
-
-@media screen and (min-width: 769px) {
-    .place__link {
-        transition: all 1s ease;
-    }
-}*/

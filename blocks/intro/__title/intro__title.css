@@ -16,24 +16,12 @@
     }
 }
 
-@media screen and (min-width: 769px) {
-    .intro__title {
-        transition: all 1s ease;
-    }
-}
-
 @media screen and (max-width: 321px) {
     .intro__title {
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;
         margin: 64px 0 40px;
-        transition: all 1s ease;
-    }
-}
-
-@media screen and (min-width: 321px) {
-    .intro__title {
         transition: all 1s ease;
     }
 }

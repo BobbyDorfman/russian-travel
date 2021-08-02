@@ -17,22 +17,10 @@
     }
 }
 
-@media screen and (min-width: 731px) {
-    .footer__links {
-        transition: all 1s ease;
-    }
-}
-
 @media screen and (max-width: 321px) {
     .footer__links {
         max-width: 100%;
         flex-direction: column;
-        transition: all 1s ease;
-    }
-}
-
-@media screen and (min-width: 321px) {
-    .footer__links {
         transition: all 1s ease;
     }
 }

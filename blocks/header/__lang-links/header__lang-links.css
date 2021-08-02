@@ -19,9 +19,3 @@
         transition: all 1s ease;
     }
 }
-
-@media screen and (min-width: 321px) {
-    .header__lang-links {
-        transition: all 1s ease;
-    }
-}
