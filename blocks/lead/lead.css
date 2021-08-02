@@ -1,10 +1,29 @@
-.lead {
+/*.lead {
     max-width: calc(100% - 148px * 2);
     font-weight: normal;
     font-style: normal;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
+}*/
+
+/*Пробую в кросбраузерность*/
+
+.lead {
+    max-width: calc(100% - 148px * 2);
+    font-weight: normal;
+    font-style: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0 auto;
 }
 

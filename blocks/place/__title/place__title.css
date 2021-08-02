@@ -1,4 +1,17 @@
+/*.place__title {
+    display: flex;
+    font-weight: 900;
+    max-width: 460px;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0;
+}*/
+
+/*Пробую в кросбраузерность*/
+
 .place__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-weight: 900;
     max-width: 460px;

@@ -1,6 +1,15 @@
-.place__image {
+/*.place__image {
     max-width: 460px;
     object-fit: cover;
+    margin: 0;
+}*/
+
+/*Пробую в кросбраузерность*/
+
+.place__image {
+    max-width: 460px;
+    -o-object-fit: cover;
+       object-fit: cover;
     margin: 0;
 }
 

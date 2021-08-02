@@ -1,7 +1,26 @@
-.places {
+/*.places {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: #fff;
+    list-style-type: none;
+    max-width: calc(100% - 148px * 2);
+    margin: 92px auto 92px;
+}*/
+
+/*Пробую в кросбраузерность*/
+
+.places {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     color: #fff;
     list-style-type: none;
     max-width: calc(100% - 148px * 2);

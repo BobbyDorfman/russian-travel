@@ -1,4 +1,4 @@
-.header__lang-links {
+/*.header__lang-links {
     display: grid;
     grid-template-columns: repeat(2, 30px);
     grid-template-rows: 28px;
@@ -7,6 +7,28 @@
     padding: 0;
     list-style: none;
     text-rendering: optimizeLegibility; 
+}*/
+
+/*Пробую в кросбраузерность*/
+
+.header__lang-links {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30px 18px 30px;
+    grid-template-columns: repeat(2, 30px);
+    -ms-grid-rows: 28px;
+    grid-template-rows: 28px;
+    gap: 18px;
+    margin: 18px 0 8px 0;
+    padding: 0;
+    list-style: none;
+    text-rendering: optimizeLegibility; 
+} .header__lang-links > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1; 
+} .header__lang-links > *:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3; 
 }
 
 @media screen and (max-width: 321px) {

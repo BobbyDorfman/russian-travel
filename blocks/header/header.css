@@ -1,7 +1,25 @@
-.header {
+/*.header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width: calc(100% - 48px * 2);
+    margin: 0 auto;
+    padding-top: 28px;
+}*/
+
+/*Пробую в кросбраузерность*/
+
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     max-width: calc(100% - 48px * 2);
     margin: 0 auto;
     padding-top: 28px;
