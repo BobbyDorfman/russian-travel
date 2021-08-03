@@ -3,6 +3,13 @@
     margin: 0 auto;
 }
 
+@media screen and (min-width: 1281px) {
+    .intro {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+}
+
 @media screen and (min-width: 1025px) {
     .intro {
         max-width: 984px;
@@ -13,20 +20,17 @@
 @media screen and (max-width: 1025px) {
     .intro {
         max-width: calc(100% - 48px * 2);
-        transition: all 1s ease;
     }
 }
 
 @media screen and (max-width: 769px) {
     .intro {
         max-width: calc(100% - 24px * 2);
-        transition: all 1s ease;
     }
 }
 
 @media screen and (max-width: 321px) {
     .intro {
         max-width: calc(100% - 16px * 2);
-        transition: all 1s ease;
     }
 }

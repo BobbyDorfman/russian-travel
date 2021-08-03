@@ -32,7 +32,6 @@
         font-size: 42px;
         line-height: 46px;
         max-width: 330px;
-        transition: all 1s ease;
     }
 }
 
@@ -42,7 +41,6 @@
         line-height: 35px;
         width: calc(100% - 16px * 2);
         margin: 0 0 0 16px;
-        transition: all 1s ease;
     }
 }
 
@@ -53,6 +51,5 @@
         line-height: 35px;
         width: calc(100% - 16px * 2);
         margin: auto;
-        transition: all 1s ease;
     }
 }

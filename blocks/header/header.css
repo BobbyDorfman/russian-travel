@@ -25,6 +25,12 @@
     padding-top: 28px;
 }
 
+@media screen and (min-width: 1281px) {
+    .header {
+        max-width: 1184px;
+    }
+}
+
 @media screen and (max-width: 769px) {
     .header {
         max-width: calc(100% - 24px * 2);
@@ -36,6 +42,5 @@
     .header {
         max-width: calc(100% - 16px * 2);
         padding-top: 16px;
-        transition: all 1s ease;
     }
 }

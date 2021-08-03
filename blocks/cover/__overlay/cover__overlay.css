@@ -63,20 +63,17 @@
 @media screen and (max-width: 769px) {
     .cover__overlay {
         min-height: 480px;
-        transition: all 1s ease;
     }
 }
 
 @media screen and (max-width: 426px) {
     .cover__overlay {
         min-height: 290px;
-        transition: all 1s ease;
     }
 }
 
 @media screen and (max-width: 321px) {
     .cover__overlay {
         min-height: 200px;
-        transition: all 1s ease;
     }
 }

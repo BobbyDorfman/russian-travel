@@ -8,7 +8,13 @@
     margin: 0 auto 92px;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1281px) {
+    .cover {
+        max-width: 1280px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px)  {
     .cover {
         max-width: 1184px;
         transition: all 1s ease;
@@ -19,14 +25,12 @@
     .cover {
         max-width: 100%;
         min-height: 640px;
-        transition: all 1s ease;
     }
 }
 
 @media screen and (max-width: 769px) {
     .cover {
         min-height: 480px;
-        transition: all 1s ease;
     }
 }
 
@@ -35,6 +39,5 @@
         max-width: 100%;
         min-height: 200px;
         margin: 0 auto 64px;
-        transition: all 1s ease;
     }
 }

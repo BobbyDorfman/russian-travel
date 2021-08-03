@@ -31,6 +31,5 @@
     .place__paragraphs {
         width: calc(100% - 16px * 2);
         margin: auto;
-        transition: all 1s ease;
     }
 }

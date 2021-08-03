@@ -15,10 +15,15 @@
     }
 }
 
-@media screen and (max-width: 769px) {
+/*@media screen and (max-width: 769px) {
     .lead__title {
         font-size: 72px;
-        transition: all 1s ease;
+    }
+}*/
+
+@media screen and (max-width: 690px) {
+    .lead__title {
+        font-size: 72px;
     }
 }
 
@@ -26,14 +31,12 @@
     .lead__title {
         font-size: 54px;
         line-height: 44px;
-        transition: all 1s ease;
     }
 }
 
 @media screen and (max-width: 421px) {
     .lead__title {
         font-size: 50px;
-        transition: all 1s ease;
     }
 }
 
@@ -41,7 +44,6 @@
     .lead__title {
         font-size: 40px;
         margin: 48px auto 16px;
-        transition: all 1s ease;
     }
 }
 
@@ -49,6 +51,5 @@
     .lead__title {
         font-size: 40px;
         margin: 48px auto 16px;
-        transition: all 1s ease;
     }
 }

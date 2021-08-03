@@ -41,6 +41,5 @@
     .footer__links {
         max-width: 100%;
         flex-direction: column;
-        transition: all 1s ease;
     }
 }

@@ -36,7 +36,5 @@
 @media screen and (max-width: 321px) {
     .place__website {
         width: calc(100% - 16px * 2);
-        margin: auto;
-        transition: all 1s ease;
     }
 }

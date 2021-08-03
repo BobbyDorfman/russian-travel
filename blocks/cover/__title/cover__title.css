@@ -14,7 +14,7 @@
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        max-width: 288px;
+        max-width: 255px;
         margin: 0 0 16px 0;
         transition: all 1s ease;
     }

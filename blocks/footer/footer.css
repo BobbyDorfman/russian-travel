@@ -27,6 +27,13 @@
     padding-bottom: 24px;
 }
 
+@media screen and (min-width: 1281px) {
+    .footer {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+}
+
 @media screen and (max-width: 769px) {
     .footer {
         max-width: calc(100% - 24px * 2);
@@ -37,7 +44,6 @@
 @media screen and (max-width: 731px) {
     .footer {
         flex-direction: column;
-        transition: all 1s ease;
     }
 }
 
@@ -45,6 +51,5 @@
     .footer {
         max-width: calc(100% - 16px * 2);
         flex-direction: column;
-        transition: all 1s ease;
     }
 }

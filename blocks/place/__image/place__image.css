@@ -23,20 +23,17 @@
 @media screen and (max-width: 769px) {
     .place__image {
         max-width: 340px;
-        transition: all 1s ease;
     }
 }
 
 @media screen and (max-width: 731px) {
     .place__image {
         max-width: 100%;
-        transition: all 1s ease;
     }
 }
 
-@media screen and (max-width: 321px) {
+/*@media screen and (max-width: 321px) {
     .place__image {
         max-width: 100%;
-        transition: all 1s ease;
     }
-}
+}*/

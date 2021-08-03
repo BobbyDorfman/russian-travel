@@ -20,7 +20,6 @@
     .lead__subtitle {
         font-size: 28.8px;
         line-height: 29.52px;
-        transition: all 1s ease;
     }
 }
 
@@ -28,7 +27,6 @@
     .lead__subtitle {
         font-size: 25.2px;
         line-height: 26.28px;
-        transition: all 1s ease;
     }
 }
 
@@ -36,14 +34,12 @@
     .lead__subtitle {
         font-size: 21.6px;
         line-height: 23.04px;
-        transition: all 1s ease;
     }
 }
 
 @media screen and (max-width: 351px) {
     .lead__subtitle {
         font-size: 18px;
-        transition: all 1s ease;
     }
 }
 
@@ -52,6 +48,5 @@
         max-width: 288px;
         font-size: 16px;
         line-height: 20px;
-        transition: all 1s ease;
     }
 }
