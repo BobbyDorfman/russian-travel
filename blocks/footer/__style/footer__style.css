@@ -6,16 +6,11 @@
 
     .footer__style:last-of-type {
         margin: 0;
-        transition: all 1s ease;
     }
 }
 
 @media screen and (max-width: 321px) {
     .footer__style {
         margin: 0 0 32px 0;
-    }
-
-    .footer__style:last-of-type {
-        margin: 0;
     }
 }

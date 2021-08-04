@@ -32,9 +32,3 @@
         transition: all 1s ease;
     }
 }
-
-@media screen and (max-width: 321px) {
-    .place__website {
-        width: calc(100% - 16px * 2);
-    }
-}

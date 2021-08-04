@@ -45,22 +45,20 @@
 @media screen and (max-width: 769px) {
     .place {
         gap: 48px 28px;
-        transition: all 1s ease;
     }
 }
 
-@media screen and (max-width: 731px) {
+/*@media screen and (max-width: 731px) {
     .place {
         grid-template-columns: auto;
         grid-template-rows: auto;
         gap: 32px;
         margin: 0 0 50px;
         width: 100%;
-        transition: all 1s ease;
     }
-}
+}*/
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 641px) {
     .place {
         grid-template-columns: auto;
         grid-template-rows: auto;

@@ -52,7 +52,14 @@
     }
 }
 
-@media screen and (max-width: 731px) {
+/*@media screen and (max-width: 731px) {
+    .places {
+        min-width: 100%;
+        margin: 64px auto 66px;
+    }
+}*/
+
+@media screen and (max-width: 641px) {
     .places {
         min-width: 100%;
         margin: 64px auto 66px;

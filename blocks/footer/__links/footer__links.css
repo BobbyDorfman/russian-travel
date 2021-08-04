@@ -36,10 +36,3 @@
         transition: all 1s ease;
     }
 }
-
-@media screen and (max-width: 321px) {
-    .footer__links {
-        max-width: 100%;
-        flex-direction: column;
-    }
-}
